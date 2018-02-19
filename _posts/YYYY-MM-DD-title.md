@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Template post"
+title: "title"
 date: YYYY-MM-DD
 ---
 
