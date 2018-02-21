@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Balanced Curls"
-date: 2018-03-20
+date: 2018-02-22
 ---
 <!-- <h2> {{page.title}}</h2> -->
 
