@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Balanced Curls"
 date: 2018-03-20
 ---
