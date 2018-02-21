@@ -1,9 +1,54 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-  {{ content }}
-</div>
+<head>
+			<title>{{ page.title }}</title>
+      <h3 class="meta">{{ page.date | date_to_string }}</h3>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			
+			<!-- START Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114532843-1"></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+			  gtag('config', 'UA-114532843-1');
+			</script>
+			<!-- END Global site tag (gtag.js) - Google Analytics -->
+</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="post">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+      
+			<footer>
+				<div class="colleft">
+				    	<h4>Lee Clemon</h4>
+					<h5>Taylor &amp Clemon Consulting LLC</h6>
+				</div>
+				<div class="colright">
+				    <ul class="ombre-social-media">
+					<li class="twitter-soc"><a href="https://twitter.com">Twitter</a></li>
+					<li class="googleplus-soc"><a href="https://plus.google.com">Google+</a></li>
+					<!--This is a comment <li class="pinterest-soc"><a href="#">Pinterest</a></li>
+					<li class="tumblr-soc"><a href="#">Tumblr</a></li>
+					<li class="bloglovin-soc"><a href="#">Bloglovin'</a></li> -->
+					<li class="email-soc"><a href="mailto:mickey.clemon@gmail.com">Email</a></li>
+					<li class="rss-soc"><a href="/blog">RSS</a></li>
+					<li><a href="https://lclemon.github.io">Website</a></li>
+				    </ul>
+				</div>
+		 	
+			</footer>
+		</body>
