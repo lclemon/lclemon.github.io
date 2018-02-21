@@ -2,8 +2,8 @@
 layout: default
 ---
 <head>
-			<title>{{ page.title }}</title>
-      <h3 class="meta">{{ page.date | date_to_string }}</h3>
+			<title>{{ post.title }}</title>
+      <h3 class="meta">{{ post.date | date_to_string }}</h3>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			
@@ -19,8 +19,8 @@ layout: default
 </head>
 
 <header>	
-	<title>{{ page.title }}</title>
-	<h3>{{ page.date | date_to_string }}</h3>
+	<title>{{ post.title }}</title>
+	<h3>{{ post.date | date_to_string }}</h3>
 </header>
 		<body>
 			<nav>
