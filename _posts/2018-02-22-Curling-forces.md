@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Balancing Curls"
+title: "Balanced Curls"
 date: 2018-02-22
 ---
 
