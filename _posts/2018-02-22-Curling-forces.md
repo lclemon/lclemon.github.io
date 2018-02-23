@@ -29,4 +29,5 @@ Both of these quantities are reducing due to the frictional forces acting upon t
 
 Plotting the surface tractions related to these forces gives a sense of what is going on around the stone. Notice at the center of the South side has two opposing forces. 
 
-![Friction force plot](http://lclemon.github.io/images/Curl_friction.png)
+<!-- ![Friction force plot](http://lclemon.github.io/images/Curl_friction.png) -->
+<img src="http://lclemon.github.io/images/Curl_friction.png" width="300">
