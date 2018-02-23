@@ -1,5 +1,6 @@
 ---
 layout: posts
+mathjax: true
 title: "Balanced Curls"
 date: 2018-02-22
 ---
