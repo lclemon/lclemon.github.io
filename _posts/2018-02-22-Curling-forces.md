@@ -10,9 +10,7 @@ Watching the winter olympics in Pyeongchang inspired me to do a bit of analysis 
 Without drag from the air and a level surface, I imagine a force acting on the stone with 2 components. The first is friction against the thrown direction of motion, the second is friction against rotation (curling). 
 
 The equation for the rotational frictional force acting on the stone becomes:
-$$
-F_{f}_ = \mu mg *(-\sin(\theta)\hat{i} + \cos(\theta)\hat{j}) 
-$$
+$$ F_{f}_ = \mu mg *(-\sin(\theta)\hat{i} + \cos(\theta)\hat{j}) $$
 and for the linear friction:
 $$
 F_{l}_ = - \mu mg \hat{i} 
@@ -23,9 +21,8 @@ The initial energy in the stone is a combination of linear and rotational kineti
 $$
 KE_{linear}_ = 1/2 m v^{2}
 $$
-$$
-KE_{rotational}_ = 1/2 I \omega^{2}
-$$
+$$ KE_{rotational}_ = 1/2 I \omega^{2} $$
+
 Both of these quantities are reducing due to the frictional forces acting upon the rock. 
 
 Plotting the surface tractions related to these forces gives a sense of what is going on around the stone. Notice at the center of the South side has two opposing forces. 
