@@ -32,3 +32,26 @@ Plotting the surface tractions related to these forces gives a sense of what is 
 
 <!-- ![Friction force plot](http://lclemon.github.io/images/Curl_friction.png) -->
 <img src="http://lclemon.github.io/images/Curl_friction.png" width="300">
+
+I divide aggregate the forces on the surface of the stone into four different locations-one for each quarter of the rock--and maintain the two components. 
+
+<!-- insert image of forces in 4 locations -->
+
+These 4 pairs of forces generate 4 resultant forces. 
+
+<!-- insert image of resultant forces in 4 locations -->
+
+<!-- compute resultant linear and angular force balances (solve for decleration and direction of motion) -->
+
+Now that the forces on the stone have been resolved, I'll computed a projected path along the lane. I structure this calculation as an interative solver dependent upon the current velocity and acceleration of the stone. This is to ensure an easier implementation of sweeping and local ice conditions in a future step. 
+
+The psuedo-code for this iteration is as follows: 
+
+<div class="language"> test code snippet </div>
+[Comment:] test comment
+```
+Code snippet
+```
+```python 
+python highlighted code snippet
+```
