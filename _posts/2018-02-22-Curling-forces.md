@@ -33,17 +33,20 @@ Plotting the surface tractions related to these forces gives a sense of what is 
 <!-- ![Friction force plot](http://lclemon.github.io/images/Curl_friction.png) -->
 <img src="http://lclemon.github.io/images/Curl_friction.png" width="300">
 
-I divide aggregate the forces on the surface of the stone into four different locations-one for each quarter of the rock--and maintain the two components. 
+Computing the local combination of forces across the surface of the rock gives the following map:
 
-<!-- insert image of forces in 4 locations -->
+<!-- insert image of resultant forces by point location -->
 
-These 4 pairs of forces generate 4 resultant forces. 
+Next the equations of motion need to be solved. The acceleration of the rock is computed from the force and inertia balance, then integrated to get the velocity and position over time. 
 
-<!-- insert image of resultant forces in 4 locations -->
+$$ \sum F \longarrow a $$
+$$ a = \frac{dv}{dt} = \frac{d^{2}x}{dt^{2}} $$
 
-<!-- compute resultant linear and angular force balances (solve for decleration and direction of motion) -->
+To compute these integrations I use a simple forward Euler or finite-difference method. This is acceptable since the velocity of the rocks is low and the total calculation. The initial position, velocity, and acceleration are prescribed at the moment of release. As an implementation detail, I only store a selection of data for plotting so that I can control directly control the storage space required. 
 
-Now that the forces on the stone have been resolved, I'll computed a projected path along the lane. I structure this calculation as an interative solver dependent upon the current velocity and acceleration of the stone. This is to ensure an easier implementation of sweeping and local ice conditions in a future step. 
+<!-- note to self of some kind -->
+
+I structure this calculation as an interative solver dependent upon the current velocity and acceleration of the stone. This is to ensure an easier implementation of sweeping and local ice conditions in a future step. 
 
 The psuedo-code for this iteration is as follows: 
 
