@@ -48,6 +48,7 @@ Forward-Euler (forward finite difference):
 $$ \frac{v_{t+1} - v_{t}}{h} = \frac{v_{t+1} - 2 v_{t} + v_{t-1}}{2k}
 
 <!-- It turns out that this is really complicated with the treatment of the ice prior to a match (little flatted domes), the melting phenomena and scratching patterns on the ice and stone. Gonna leave this for a while and come back to it. Basically, the stones should curl the opposite direction that they due if it were equal friction on the bottom. -->
+<!-- One option is to compute the heating induced by the friction forces and then recompute the friction coefficient at each location based on the expected heating (and melting). Another is to estimate the localized friction coefficient under the stone from video footage of curling matches. Then use the estimated parameter as a guess -->
 
 I structure this calculation as an interative solver dependent upon the current velocity and acceleration of the stone. This is to ensure an easier implementation of sweeping and local ice conditions in a future step. 
 
