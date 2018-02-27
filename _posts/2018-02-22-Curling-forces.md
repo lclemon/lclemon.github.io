@@ -44,8 +44,7 @@ $$ a = \frac{dv}{dt} = \frac{d^{2}x}{dt^{2}} $$
 
 To compute these integrations I use a simple finite-difference method. This is acceptable since the velocity of the rocks is low and the total calculation. The initial position, velocity, and acceleration are prescribed at the moment of release. As an implementation detail, I only store a selection of data for plotting so that I can control directly control the storage space required. 
 
-Forward-Euler (forward finite difference):
-$$ \frac{v_{t+1} - v_{t}}{h} = \frac{v_{t+1} - 2 v_{t} + v_{t-1}}{2k}
+Forward-Euler (forward finite-difference):
 
 <!-- It turns out that this is really complicated with the treatment of the ice prior to a match (little flatted domes), the melting phenomena and scratching patterns on the ice and stone. Gonna leave this for a while and come back to it. Basically, the stones should curl the opposite direction that they due if it were equal friction on the bottom. -->
 <!-- One option is to compute the heating induced by the friction forces and then recompute the friction coefficient at each location based on the expected heating (and melting). Another is to estimate the localized friction coefficient under the stone from video footage of curling matches. Then use the estimated parameter as a guess -->
