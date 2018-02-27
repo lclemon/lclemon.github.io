@@ -40,10 +40,8 @@ Computing the local combination of forces across the surface of the rock gives t
 <img src="http://lclemon.github.io/images/Curl_friction_net.png" width="300">
 
 A force balance of these components would suggest the north side of the stone would slow down faster than the south side and cause the rock to curve opposite the rotation direction. However, when you watch curling, the rocks curl in the same direction as the rotation. So, what is causing this trajectory? 
-<!-- Next the equations of motion need to be solved. The acceleration of the rock is computed from the force and inertia balance, then integrated to get the velocity and position over time. -->
 
-<!--$$ \sum F \longarrow a $$
-$$ a = \frac{dv}{dt} = \frac{d^{2}x}{dt^{2}} $$ -->
+To help solve this challenge, I'll look at the interface of the ice and the rock. 
 
 <!--To compute these integrations I use a simple finite-difference method. This is acceptable since the velocity of the rocks is low and the total calculation. The initial position, velocity, and acceleration are prescribed at the moment of release. As an implementation detail, I only store a selection of data for plotting so that I can control directly control the storage space required. -->
 
