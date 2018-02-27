@@ -6,7 +6,7 @@ date: 2018-02-22
 ---
 
 
-Watching the winter olympics in Pyeongchang inspired me to do a bit of analysis of curling. In this post we'll examine the force balance of a moving stone as well as it's trajectory without sweeping. 
+Watching the 2018 Winter Olympics hosted in Pyeongchang inspired me to do a bit of analysis of curling. In this post we'll examine the force balance of a moving stone as well as it's trajectory without sweeping. 
 
 Without drag from the air and a level surface, I imagine a force acting on the stone with 2 components. The first is friction against the thrown direction of motion, the second is friction against rotation (curling). 
 
