@@ -36,28 +36,24 @@ Plotting the surface tractions related to these forces gives a sense of what is 
 Computing the local combination of forces across the surface of the rock gives the following map:
 
 <!-- insert image of resultant forces by point location -->
+<img src="http://lclemon.github.io/images/Curl_friction_net.png" width="300">
 
-Next the equations of motion need to be solved. The acceleration of the rock is computed from the force and inertia balance, then integrated to get the velocity and position over time. 
+<!-- Next the equations of motion need to be solved. The acceleration of the rock is computed from the force and inertia balance, then integrated to get the velocity and position over time. 
 
-$$ \sum F \longarrow a $$
+<!--$$ \sum F \longarrow a $$
 $$ a = \frac{dv}{dt} = \frac{d^{2}x}{dt^{2}} $$
 
-To compute these integrations I use a simple finite-difference method. This is acceptable since the velocity of the rocks is low and the total calculation. The initial position, velocity, and acceleration are prescribed at the moment of release. As an implementation detail, I only store a selection of data for plotting so that I can control directly control the storage space required. 
+<!--To compute these integrations I use a simple finite-difference method. This is acceptable since the velocity of the rocks is low and the total calculation. The initial position, velocity, and acceleration are prescribed at the moment of release. As an implementation detail, I only store a selection of data for plotting so that I can control directly control the storage space required. 
 
-Forward-Euler (forward finite-difference):
+<!--Forward-Euler (forward finite-difference): 
 
 <!-- It turns out that this is really complicated with the treatment of the ice prior to a match (little flatted domes), the melting phenomena and scratching patterns on the ice and stone. Gonna leave this for a while and come back to it. Basically, the stones should curl the opposite direction that they due if it were equal friction on the bottom. -->
 <!-- One option is to compute the heating induced by the friction forces and then recompute the friction coefficient at each location based on the expected heating (and melting). Another is to estimate the localized friction coefficient under the stone from video footage of curling matches. Then use the estimated parameter as a guess -->
 
-I structure this calculation as an interative solver dependent upon the current velocity and acceleration of the stone. This is to ensure an easier implementation of sweeping and local ice conditions in a future step. 
+<!--I structure this calculation as an interative solver dependent upon the current velocity and acceleration of the stone. This is to ensure an easier implementation of sweeping and local ice conditions in a future step. 
 
-The psuedo-code for this iteration is as follows: 
+<!--The psuedo-code for this iteration is as follows: 
 
-<div class="language"> test code snippet </div>
-[Comment:] test comment
-```
-Code snippet
-```
 ```python 
 python highlighted code snippet
 ```
