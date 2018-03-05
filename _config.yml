@@ -1,3 +1,4 @@
 name: Lee Clemon
 markdown: kramdown
+mathjax: true
 permalink: /blog/:year/:month/:day/:title
