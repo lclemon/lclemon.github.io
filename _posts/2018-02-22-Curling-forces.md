@@ -39,7 +39,11 @@ Computing the local combination of forces across the surface of the rock gives t
 <!-- insert image of resultant forces by point location -->
 <img src="http://lclemon.github.io/images/Curl_friction_net.png" width="300">
 
-A force balance of these components would suggest the north side of the stone would slow down faster than the south side and cause the rock to curve opposite the rotation direction. However, when you watch curling, the rocks curl in the same direction as the rotation. So, what is causing this trajectory? 
+A force balance of these components would suggest the north side of the stone would slow down faster than the south side and cause the rock to curve opposite the rotation direction. 
+
+<!--<img src="http://lclemon.github.io/images/Curl_friction_net.png" width="300"> -->
+
+However, when you watch curling, the rocks curl in the same direction as the rotation. So, what is causing this trajectory? 
 
 To help solve this challenge, I'll look at the interface of the ice and the rock. 
 
