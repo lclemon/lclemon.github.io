@@ -15,3 +15,15 @@ on a control chart (Figure 1) and fed up the chain-of-command for review.
 
 
 
+It must be emphasized that a control chart notifies you of a deviation in that which you measure. 
+
+Let's continue the example. Good Parts, Inc. is making widgets to clear a backlog. Good Parts, Inc. has 3 processing lines each of which make the same widget. 
+
+Line 1: throughput = 100/hr
+Line 2: throughput = 80/hr
+Line 3: throughput = 110/hr
+
+
+
+
+
