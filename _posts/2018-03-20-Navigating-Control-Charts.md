@@ -8,12 +8,12 @@ date: 2018-03-20
 A common tool in a manufacturing plant, production line or other production firm is that of the control chart. The common features are: 
 
 1. Measured variable, error, deviation, or other control parameter (the y-axis)
-...* If one is using error from the desired value then there is likely only one control limit: the UCL.
+  * If one is using error from the desired value then there is likely only one control limit: the UCL.
 2. Time (the x-axis)
 3. Upper Control Limit (UCL) - the largest acceptable value of the control parameter
-...* UCL is often defined as some number of standard deviations above the desired value
+  ..* UCL is often defined as some number of standard deviations above the desired value
 4. Lower Control Limit (LCL) - the smallest acceptable value of the control parameter
-...* LCL is often defined as some number of standard deviations below the desired value
+  * LCL is often defined as some number of standard deviations below the desired value
 
 
 <img src="http://lclemon.github.io/images/sample_control_chart.png">
