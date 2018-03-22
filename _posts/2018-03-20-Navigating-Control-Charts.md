@@ -46,11 +46,9 @@ Good Parts, Inc. is making widgets where a critical dimension is specifed at 5.0
 Widgets are [random sampling](https://en.wikipedia.org/wiki/Sampling_(statistics) "randomly sampled") for inspection. Random sampling has a whole field of study related to ensuring the samples are indeed random. I won't get into that in this post, but look out for one in the future. The results of samples are then plotted on a control chart and fed up the chain-of-command for review--to you the engineer! Now what?
 
 <!-- <a href="https://www.leeclemon.com">Visit my site</a> -->
-<!-- [I'm an inline-style link with title](https://www.google.com "Google's Homepage") -->
+<!-- [I'm an inline-style link with title](https://www.google.com "Google's Homepage") --> 
 
-It must be emphasized that a control chart notifies you of a deviation in that which you measure. 
-
-Let's continue the example. Good Parts, Inc. is making widgets to clear a backlog. Good Parts, Inc. has 3 processing lines each of which make the same widget. 
+Good Parts, Inc. is making widgets at an accelerated rate to clear a backlog. Good Parts, Inc. has 3 processing lines each of which make the same widget. 
 
 Line 1: throughput = 100/hr
 
@@ -80,6 +78,8 @@ Two easy techniques for utilizing an early sign of process deviation present:
 2) Redefine the control limits to be tighter so that deviations are investigated more frequently potentially aiding continuous improvment efforts. 
 <!-- insert images--> 
 
+
+It must be emphasized that a control chart notifies you only of a deviation in that which you measure. It cannot and does not give more information. Any other information that is inferred from reading a control chart is due to a combination of knowledge of the production and measurement processes. 
 
 
 
