@@ -32,13 +32,18 @@ provide a signal for intervention. The indicators of a needed intervention are c
  <li> When multiple reporting points successively fall on the same side of and some distance away from the center line.
 </ol>
 
-This first event is pretty obvious once the chart is created and data begins to be plotted. The second event can take various forms like 2/3 successive points are on the same side and 2-$\sigma$ from the center, or 8 or more points fall on the same side of the center line. 
+This first event is pretty obvious once the chart is created and data begins to be plotted. The second event can take various forms like 2/3 successive points are on the same side and 2-$\sigma$ from the center, or 8 or more points fall on the same side of the center line. Each point on the control chart is a sample of inspected or measured goods. This sample collectively makes up a single data point on the control chart. The sample may be represented as a range, average, error, or standard deviation. I will focus on the average and error methods here. 
+
+An Average Control Chart plots the average value with-respect-to the desired value of the inspection point. For example, if we are making transformers for cell phone chargers and the output voltage should be 5V at 1.2A. Then I might have 1 or 2 control charts. One plot could be of the power density (5.2V x 1A = 6W). Or two plots showing the voltage and amperage separately. If the voltage is too low it won't charge any phones, and if it is too high it may cause damage. If the amperage is too high it will likely cause damage and if it is too low charging will take too long and we'll get product returns, unhappy customers, and bad reviews (not a good business plan). So the transformers should be just right. 
+
+<!-- Insert average plot exmaple here. Labeled with Watts and reasonable variation values for control limits -->
 
 
 
+Let's look at another example. Suppose you are a production engineer at Good Parts, Inc. 
 
-As an example, Good Parts, Inc. is making widgets where a critical dimension is specifed at 5.000 \pm 0.003. 
-Widgets are [link:random sampling]randomly sampled for inspection. The results of these tests are then plotted 
+Good Parts, Inc. is making widgets where a critical dimension is specifed at 5.000 \pm 0.003. 
+Widgets are [link:]random sampling randomly sampled for inspection. The results of these tests are then plotted 
 on a control chart (Figure 1) and fed up the chain-of-command for review. 
 
 
@@ -56,10 +61,10 @@ Line 3: throughput = 110/hr
 Assume <!--add random selection for inspection post and link here-->random selection for part inspection is appropriately random and sufficiently frequent for prescribed scrap rates.
 Now the results of each production line are collected and plotted on the control charts shown in figures 1, 2, and 3.
 
-Production line 1 is producing parts and occassionally has a part that doesn't meet the specification. While this is undesirable, it may not be an urgent issue.  
+Production line 1 has a sample that doesn't meet the specification. 
 <!-- insert images--> 
 
-Production line 2 is has steadly drifted toward and beyond the lower control limit (LCL). This indicates action should be taken to correct course. 
+Production line 2 has steadly drifted toward the lower control limit (LCL).  
 <!-- insert images--> 
 
 Production line 3 is wandering close to the upper control limit (UCL) prolonged drift toward one of the control limits is not by definition an issue, but could be an early sign. Since, identifying an 'out-of-control' process is the key purpose of the control chart, the presentation of the information can be adjusted to utilize these early warning signs. 
