@@ -43,10 +43,10 @@ An Average Control Chart plots the average value with-respect-to the desired val
 Let's look at another example. Suppose you are a production engineer at Good Parts, Inc. 
 
 Good Parts, Inc. is making widgets where a critical dimension is specifed at 5.000 \pm 0.003. 
-Widgets are [link:]random sampling randomly sampled for inspection. The results of these tests are then plotted 
-on a control chart (Figure 1) and fed up the chain-of-command for review. 
+Widgets are [random sampling](https://en.wikipedia.org/wiki/Sampling_(statistics) "randomly sampled") for inspection. Random sampling has a whole field of study related to ensuring the samples are indeed random. I won't get into that in this post, but look out for one in the future. The results of samples are then plotted on a control chart and fed up the chain-of-command for review--to you the engineer! Now what?
 
-
+<!-- <a href="https://www.leeclemon.com">Visit my site</a> -->
+<!-- [I'm an inline-style link with title](https://www.google.com "Google's Homepage") -->
 
 It must be emphasized that a control chart notifies you of a deviation in that which you measure. 
 
