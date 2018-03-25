@@ -12,11 +12,11 @@ Without drag from the air and a level surface, I imagine a force acting on the s
 
 The equation for the rotational frictional force acting on the stone becomes:
 
-$$ F_{f} = \mu * mg *(-\sin(\theta)\hat{i} + \cos(\theta)\hat{j}) $$
+$$ F_{f} = \mu  mg (-\sin(\theta)\hat{i} + \cos(\theta)\hat{j}) $$
 
 and for the linear friction:
 
-$$ F_{l} = - \mu * mg \hat{i} $$
+$$ F_{l} = - \mu  mg \hat{i} $$
 
 where $\hat{i}$ represents the direction of the target area (positive east), and $\hat{j}$ represents the direction perpendicular to the target area (positive to the north).
  
