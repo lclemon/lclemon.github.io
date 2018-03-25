@@ -47,6 +47,18 @@ However, when you watch curling, the rocks curl in the same direction as the rot
 
 To help solve this challenge, I'll look at the interface of the ice and the rock. 
 
+The friction between the rock's running band and the ice generates heat. This heat, along with the pressure of the rock melts the ice and alters the local coefficient of friction. I make a few simplifying assumptions about this mechanism and ignore local striations in the ice which could also contribute. 
+
+I define the coefficient of friction using polar coordinates and collapse the radial direction to a single distance. The local kinetic energy is assumed be the major factor generating heat and the reduction in friction coefficient is made proportional. 
+
+$$ KE = KE_{linear} + KE_{rotational} \longarrow \mu'(\theta,r')$$
+
+Next, I rotate the coefficient of friction around the rock with a lagging angle relative to the local kinetic energy. 
+
+$$ \mu(\theta,r) = \mu'(\theta-\phi,r) $$
+
+
+
 <!--To compute these integrations I use a simple finite-difference method. This is acceptable since the velocity of the rocks is low and the total calculation. The initial position, velocity, and acceleration are prescribed at the moment of release. As an implementation detail, I only store a selection of data for plotting so that I can control directly control the storage space required. -->
 
 <!--Forward-Euler (forward finite-difference): -->
