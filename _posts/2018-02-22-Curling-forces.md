@@ -51,7 +51,7 @@ The friction between the rock's running band and the ice generates heat. This he
 
 I define the coefficient of friction using polar coordinates and collapse the radial direction to a single distance. The local kinetic energy is assumed be the major factor generating heat and the reduction in friction coefficient is made proportional. 
 
-$$ KE = KE_{linear} + KE_{rotational} \longarrow \mu'(\theta,r')$$
+$$ KE = KE_{linear} + KE_{rotational} \rightarrow \mu'(\theta,r')$$
 
 Next, I rotate the coefficient of friction around the rock with a lagging angle relative to the local kinetic energy. 
 
