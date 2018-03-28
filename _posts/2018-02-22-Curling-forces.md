@@ -57,6 +57,7 @@ Next, I rotate the coefficient of friction around the rock with a lagging angle 
 
 $$ \mu(\theta,r) = \mu'(\theta-\phi,r) $$
 
+<img src="http://lclemon.github.io/images/Curl-mu-lag23pi.png" width="740" height="230">
 
 
 <!--To compute these integrations I use a simple finite-difference method. This is acceptable since the velocity of the rocks is low and the total calculation. The initial position, velocity, and acceleration are prescribed at the moment of release. As an implementation detail, I only store a selection of data for plotting so that I can control directly control the storage space required. -->
