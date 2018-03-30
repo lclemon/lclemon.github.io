@@ -1,9 +1,10 @@
- ---
+---
 layout: posts
 mathjax: true
 title: "Trash-crete"
 date: 2018-03-30
 ---
+
 
 In a recent paper, bulk and shear modulus are predicted for random assortments of mixed plastic waste embedded in concrete. 
 
